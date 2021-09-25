@@ -1,0 +1,58 @@
+@import url(../style.css);
+
+/* top navigation bar  */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar #oldlogo:hover {
+  transform: scale(1.05);
+}
+
+.dropdown-content {
+  position: fixed;
+}
+
+
+/* about section */
+
+.info {
+  color: #d5b36c;
+  font-size: 1.211rem;
+  text-align: justify;
+  padding: 2.22rem 10.44rem;
+  position: relative;
+  top: 8.33rem;
+}
+
+.info ul {
+  list-style-type: circle;
+  z-index: -1;
+}
+
+#steps {
+  list-style-type: none;
+}
+
+#about-whatsapp {
+  position: relative;
+  left: 0.278rem;
+}
+
+@media(max-width: 998px){
+  .info {
+    padding: 2.22rem 6.44rem;
+    font-size: 1.611rem;
+  }
+
+}
+
+@media(max-width: 768px){
+  .info {
+    padding: 2.22rem 2.44rem;
+    font-size: 1.611rem;
+  }
+}
